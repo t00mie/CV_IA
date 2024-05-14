@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery div {
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+
+.simple-gallery div {
+    width: 30%; /* Para ajustar tres imágenes por línea */
+}
+
+.simple-gallery img {
+    width: 100%; /* Ajustar el tamaño de las imágenes para llenar el div */
+    cursor: pointer;
+}
+
+.before-after div img {
+    width: 85%; /* Reducir tamaño al 85% */
+    transition: 0.3s ease;
+    cursor: pointer;
+}
